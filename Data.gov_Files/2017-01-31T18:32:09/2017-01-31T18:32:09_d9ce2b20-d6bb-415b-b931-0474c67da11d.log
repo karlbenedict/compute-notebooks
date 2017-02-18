@@ -1,0 +1,356 @@
+2017-01-31T18:32:09	Harvest Run
+2017-01-31T18:32:09		initiated: 2017-01-31T18:32:09
+2017-01-31T18:32:09		harvest ID: d9ce2b20-d6bb-415b-b931-0474c67da11d
+2017-01-31T18:32:09		requestSize: 10
+2017-01-31T18:32:09		requestLimit: 2
+2017-01-31T18:32:09		requestBaseURL: https://catalog.data.gov/api/3/action
+2017-01-31T18:32:09		requestFunction: package_search
+2017-01-31T18:32:09		dataBaseDirectory: Data.gov_Files
+2017-01-31T18:32:09	Initialization Process Started 
+2017-01-31T18:32:09	Harvest Initiated
+2017-01-31T18:32:09	0.	getting: https://catalog.data.gov/api/3/action/package_search?rows=10&start=0
+2017-01-31T18:32:09		output file path: Data.gov_Files/2017-01-31T18:32:09/d9ce2b20-d6bb-415b-b931-0474c67da11d_2017-01-31T18:32:09_00000001-00000010.json
+2017-01-31T18:32:09		Finished processing: Data.gov_Files/2017-01-31T18:32:09/d9ce2b20-d6bb-415b-b931-0474c67da11d_2017-01-31T18:32:09_00000001-00000010.json
+2017-01-31T18:32:09		10 out of 194866 processed
+2017-01-31T18:32:09	1.	getting: https://catalog.data.gov/api/3/action/package_search?rows=10&start=10
+2017-01-31T18:32:09		output file path: Data.gov_Files/2017-01-31T18:32:09/d9ce2b20-d6bb-415b-b931-0474c67da11d_2017-01-31T18:32:09_00000011-00000020.json
+2017-01-31T18:32:09		Finished processing: Data.gov_Files/2017-01-31T18:32:09/d9ce2b20-d6bb-415b-b931-0474c67da11d_2017-01-31T18:32:09_00000011-00000020.json
+2017-01-31T18:32:09		20 out of 194866 processed
+2017-01-31T18:32:09	Harvest Completed
+2017-01-31T18:32:09	Harvest Execution Time: 0:00:00.372015
+2017-01-31T18:32:09	Extracting resources from: Data.gov_Files/2017-01-31T18:32:09/d9ce2b20-d6bb-415b-b931-0474c67da11d_2017-01-31T18:32:09_00000001-00000010.json
+2017-01-31T18:32:09	Identified Resources for: cfpb-gov(6613ee0e-1161-4c1a-ba8b-82640bcc790b)
+2017-01-31T18:32:09	1. Checking 19131785-11b3-4ea1-91d9-cee1296d5e6a, (https://data.consumerfinance.gov/api/views/s6ew-h6mp/rows.csv?accessType=DOWNLOAD)
+2017-01-31T18:32:10		checked: https://data.consumerfinance.gov/api/views/s6ew-h6mp/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:10		status: <Response [400]>
+2017-01-31T18:32:10		Testing elapsed time: 0:00:00.509157:	19131785-11b3-4ea1-91d9-cee1296d5e6a, https://data.consumerfinance.gov/api/views/s6ew-h6mp/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:10	2. Checking d039a0f7-dcdf-439a-8a98-87576bd9a4b6, (https://data.consumerfinance.gov/api/views/s6ew-h6mp/rows.csv?accessType=DOWNLOAD)
+2017-01-31T18:32:10		checked: https://data.consumerfinance.gov/api/views/s6ew-h6mp/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:10		status: <Response [400]>
+2017-01-31T18:32:10		Testing elapsed time: 0:00:00.775995:	d039a0f7-dcdf-439a-8a98-87576bd9a4b6, https://data.consumerfinance.gov/api/views/s6ew-h6mp/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:10	3. Checking f5154d73-a158-4eb5-a3c1-a24febfb7e50, (http://data.consumerfinance.gov/api/views.json)
+2017-01-31T18:32:10		checked: http://data.consumerfinance.gov/api/views.json
+2017-01-31T18:32:10		status: <Response [400]>
+2017-01-31T18:32:10		Testing elapsed time: 0:00:00.921500:	f5154d73-a158-4eb5-a3c1-a24febfb7e50, http://data.consumerfinance.gov/api/views.json
+2017-01-31T18:32:10	4. Checking 3b1202a3-0580-4193-bf50-16df9a68405e, (http://data.consumerfinance.gov/api/views.xml)
+2017-01-31T18:32:11		checked: http://data.consumerfinance.gov/api/views.xml
+2017-01-31T18:32:11		status: <Response [400]>
+2017-01-31T18:32:11		Testing elapsed time: 0:00:01.053685:	3b1202a3-0580-4193-bf50-16df9a68405e, http://data.consumerfinance.gov/api/views.xml
+2017-01-31T18:32:11	5. Checking d07b8a88-7e89-417a-9f39-5c4c47400a38, (http://data.consumerfinance.gov/api/views/s6ew-h6mp.json)
+2017-01-31T18:32:11		checked: http://data.consumerfinance.gov/api/views/s6ew-h6mp.json
+2017-01-31T18:32:11		status: <Response [400]>
+2017-01-31T18:32:11		Testing elapsed time: 0:00:01.187762:	d07b8a88-7e89-417a-9f39-5c4c47400a38, http://data.consumerfinance.gov/api/views/s6ew-h6mp.json
+2017-01-31T18:32:11		{'6613ee0e-1161-4c1a-ba8b-82640bcc790b': {'name': 'consumer-complaint-database', 'metadata_modified': '2015-09-26T08:07:59.498823', 'orgID': '79814054-747d-4d4a-8a68-3b936a935e05', 'orgTitle': 'Consumer Financial Protection Bureau', 'resourcesURLs': {}, 'orgName': 'cfpb-gov', 'resourceType': 'dataset', 'metadata_created': '2014-02-26T00:48:24.897497'}}
+2017-01-31T18:32:11	Identified Resources for: ed-gov(61b51cbd-a513-4d43-acb5-93ea1ff575c0)
+2017-01-31T18:32:11	6. Checking d3846434-546c-45b2-a683-830df519fcb2, (https://collegescorecard.ed.gov/)
+2017-01-31T18:32:11		checked: https://collegescorecard.ed.gov/
+2017-01-31T18:32:11		status: <Response [200]>
+2017-01-31T18:32:11		Testing elapsed time: 0:00:01.392768:	d3846434-546c-45b2-a683-830df519fcb2, https://collegescorecard.ed.gov/
+2017-01-31T18:32:11	7. Checking b5322098-c1f2-4713-b543-448168117462, (https://ed-public-download.apps.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip)
+2017-01-31T18:32:12		Timeout Error: https://ed-public-download.apps.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip
+2017-01-31T18:32:12		Testing elapsed time: 0:00:02.645938:	b5322098-c1f2-4713-b543-448168117462, https://ed-public-download.apps.cloud.gov/downloads/CollegeScorecard_Raw_Data.zip
+2017-01-31T18:32:12	8. Checking 76a5f136-746c-4d58-8485-85435627bf57, (https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv)
+2017-01-31T18:32:12		checked: https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv
+2017-01-31T18:32:12		status: <Response [200]>
+2017-01-31T18:32:12		Testing elapsed time: 0:00:02.969073:	76a5f136-746c-4d58-8485-85435627bf57, https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv
+2017-01-31T18:32:12	9. Checking 1e0d9107-20fa-4408-94b0-877f86b21747, (https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-All-Data-Elements.csv)
+2017-01-31T18:32:13		checked: https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-All-Data-Elements.csv
+2017-01-31T18:32:13		status: <Response [200]>
+2017-01-31T18:32:13		Testing elapsed time: 0:00:03.301679:	1e0d9107-20fa-4408-94b0-877f86b21747, https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-All-Data-Elements.csv
+2017-01-31T18:32:13	10. Checking b47dffe1-787b-45c2-93e2-b005f9cabdf8, (https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-NSLDS-Elements.csv)
+2017-01-31T18:32:14		Timeout Error: https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-NSLDS-Elements.csv
+2017-01-31T18:32:14		Testing elapsed time: 0:00:04.504047:	b47dffe1-787b-45c2-93e2-b005f9cabdf8, https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-NSLDS-Elements.csv
+2017-01-31T18:32:14	11. Checking 3f884230-9133-4cdc-990f-afdc9d798f5f, (https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-Treasury-Elements.csv)
+2017-01-31T18:32:15		Timeout Error: https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-Treasury-Elements.csv
+2017-01-31T18:32:15		Testing elapsed time: 0:00:05.733184:	3f884230-9133-4cdc-990f-afdc9d798f5f, https://ed-public-download.apps.cloud.gov/downloads/Most-Recent-Cohorts-Treasury-Elements.csv
+2017-01-31T18:32:15	12. Checking 4889ef61-03a3-4423-b6db-381c0d31f999, (https://collegescorecard.ed.gov/data/documentation/)
+2017-01-31T18:32:16		checked: https://collegescorecard.ed.gov/data/documentation/
+2017-01-31T18:32:16		status: <Response [200]>
+2017-01-31T18:32:16		Testing elapsed time: 0:00:06.139146:	4889ef61-03a3-4423-b6db-381c0d31f999, https://collegescorecard.ed.gov/data/documentation/
+2017-01-31T18:32:16		{'61b51cbd-a513-4d43-acb5-93ea1ff575c0': {'name': 'college-scorecard', 'metadata_modified': '2017-01-30T16:20:49.668977', 'orgID': '8c0bc869-1189-4ced-af26-2abd2337b886', 'orgTitle': 'Department of Education', 'resourcesURLs': {}, 'orgName': 'ed-gov', 'resourceType': 'dataset', 'metadata_created': '2015-09-28T19:16:07.134768'}}
+2017-01-31T18:32:16	Identified Resources for: city-of-new-york(05271699-d1bb-4c19-aef4-262d68b81768)
+2017-01-31T18:32:16	13. Checking c2e6d539-f4b5-462f-91a6-7c80f4c5cc38, (https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.csv?accessType=DOWNLOAD)
+2017-01-31T18:32:16		checked: https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:16		status: <Response [400]>
+2017-01-31T18:32:16		Testing elapsed time: 0:00:06.694263:	c2e6d539-f4b5-462f-91a6-7c80f4c5cc38, https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:16	14. Checking af10891f-3c17-43b7-8330-c632f3f4eb7a, (https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.rdf?accessType=DOWNLOAD)
+2017-01-31T18:32:16		checked: https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:16		status: <Response [400]>
+2017-01-31T18:32:16		Testing elapsed time: 0:00:06.982096:	af10891f-3c17-43b7-8330-c632f3f4eb7a, https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:16	15. Checking b422ea47-7524-46dd-8943-00e6e6fbedc0, (https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.json?accessType=DOWNLOAD)
+2017-01-31T18:32:17		checked: https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:17		status: <Response [400]>
+2017-01-31T18:32:17		Testing elapsed time: 0:00:07.259471:	b422ea47-7524-46dd-8943-00e6e6fbedc0, https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:17	16. Checking 3e544475-49b8-4a70-b935-544a244bee5d, (https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.xml?accessType=DOWNLOAD)
+2017-01-31T18:32:17		checked: https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:17		status: <Response [400]>
+2017-01-31T18:32:17		Testing elapsed time: 0:00:07.527296:	3e544475-49b8-4a70-b935-544a244bee5d, https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:17		{'05271699-d1bb-4c19-aef4-262d68b81768': {'name': 'demographic-statistics-by-zip-code-acfc9', 'metadata_modified': '2016-06-16T07:25:50.124327', 'orgID': '2cc8e4b4-0c38-4590-a002-bd0d74002dec', 'orgTitle': 'City of New York', 'resourcesURLs': {}, 'orgName': 'city-of-new-york', 'resourceType': 'dataset', 'metadata_created': '2015-02-04T19:05:15.432951'}}
+2017-01-31T18:32:17	Identified Resources for: city-of-chicago(732b7e70-edd5-49a5-9bfb-bd3bac222083)
+2017-01-31T18:32:17	17. Checking 0325398a-dded-4a82-8000-23ecec355ddc, (https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD)
+2017-01-31T18:32:17		checked: https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:17		status: <Response [400]>
+2017-01-31T18:32:17		Testing elapsed time: 0:00:07.902816:	0325398a-dded-4a82-8000-23ecec355ddc, https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:17	18. Checking a78687b1-e3eb-4af2-b9f0-7ad70395da82, (https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.rdf?accessType=DOWNLOAD)
+2017-01-31T18:32:18		checked: https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:18		status: <Response [400]>
+2017-01-31T18:32:18		Testing elapsed time: 0:00:08.199528:	a78687b1-e3eb-4af2-b9f0-7ad70395da82, https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:18	19. Checking 570a247f-1dc7-4b12-903d-c387ef2286fd, (https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.json?accessType=DOWNLOAD)
+2017-01-31T18:32:18		checked: https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:18		status: <Response [400]>
+2017-01-31T18:32:18		Testing elapsed time: 0:00:08.464288:	570a247f-1dc7-4b12-903d-c387ef2286fd, https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:18	20. Checking 05d368e9-23f2-47f6-83ea-f554f21d803d, (https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.xml?accessType=DOWNLOAD)
+2017-01-31T18:32:18		checked: https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:18		status: <Response [400]>
+2017-01-31T18:32:18		Testing elapsed time: 0:00:08.747939:	05d368e9-23f2-47f6-83ea-f554f21d803d, https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:18		{'732b7e70-edd5-49a5-9bfb-bd3bac222083': {'name': 'crimes-2001-to-present-398a4', 'metadata_modified': '2017-01-26T17:06:33.826323', 'orgID': '86c0c3d9-3826-47ab-a773-6924b858dd04', 'orgTitle': 'City of Chicago', 'resourcesURLs': {}, 'orgName': 'city-of-chicago', 'resourceType': 'dataset', 'metadata_created': '2015-02-04T19:39:09.148860'}}
+2017-01-31T18:32:18	Identified Resources for: hud-gov(0c90b9e9-1918-488c-a8a1-fc3582138806)
+2017-01-31T18:32:18	21. Checking cb7fd336-52d2-47e4-92b3-f0586aaf2064, (http://www.HUDuser.org/portal/datasets/hads/hads.html)
+2017-01-31T18:32:18		checked: http://www.HUDuser.org/portal/datasets/hads/hads.html
+2017-01-31T18:32:18		status: <Response [301]>
+2017-01-31T18:32:18		Testing elapsed time: 0:00:08.812405:	cb7fd336-52d2-47e4-92b3-f0586aaf2064, http://www.HUDuser.org/portal/datasets/hads/hads.html
+2017-01-31T18:32:18		{'0c90b9e9-1918-488c-a8a1-fc3582138806': {'name': 'housing-affordability-data-system-hads', 'metadata_modified': '2015-03-15T17:32:20.771185', 'orgID': '6735b2b0-9015-492f-a855-fbcf03185e6c', 'orgTitle': 'Department of Housing and Urban Development', 'resourcesURLs': {}, 'orgName': 'hud-gov', 'resourceType': 'dataset', 'metadata_created': '2014-03-07T15:33:31.041927'}}
+2017-01-31T18:32:18	Identified Resources for: treasury-gov(725a7f4e-0a32-4f83-bbe4-3daf7dfe63ed)
+2017-01-31T18:32:18	22. Checking 8c546045-95ba-4acf-ae08-55c4eb042bde, (http://www.irs.gov/uac/SOI-Tax-Stats-Individual-Income-Tax-Statistics-ZIP-Code-Data-(SOI))
+2017-01-31T18:32:19		checked: http://www.irs.gov/uac/SOI-Tax-Stats-Individual-Income-Tax-Statistics-ZIP-Code-Data-(SOI)
+2017-01-31T18:32:19		status: <Response [301]>
+2017-01-31T18:32:19		Testing elapsed time: 0:00:09.043615:	8c546045-95ba-4acf-ae08-55c4eb042bde, http://www.irs.gov/uac/SOI-Tax-Stats-Individual-Income-Tax-Statistics-ZIP-Code-Data-(SOI)
+2017-01-31T18:32:19		{'725a7f4e-0a32-4f83-bbe4-3daf7dfe63ed': {'name': 'zip-code-data', 'metadata_modified': '2016-03-29T23:22:43.593332', 'orgID': '5a2fc6dd-f2cc-4bae-878b-c70576a26757', 'orgTitle': 'Department of the Treasury', 'resourcesURLs': {}, 'orgName': 'treasury-gov', 'resourceType': 'dataset', 'metadata_created': '2014-03-03T19:15:22.519806'}}
+2017-01-31T18:32:19	Identified Resources for: doc-gov(91c752e6-bce6-4a78-9031-056b5c92cbf2)
+2017-01-31T18:32:19	23. Checking 94882a4f-4748-427a-bc69-2b7909dd35b7, (http://www.census.gov/foreign-trade/statistics/historical/)
+2017-01-31T18:32:19		checked: http://www.census.gov/foreign-trade/statistics/historical/
+2017-01-31T18:32:19		status: <Response [302]>
+2017-01-31T18:32:19		Testing elapsed time: 0:00:09.217910:	94882a4f-4748-427a-bc69-2b7909dd35b7, http://www.census.gov/foreign-trade/statistics/historical/
+2017-01-31T18:32:19		{'91c752e6-bce6-4a78-9031-056b5c92cbf2': {'name': 'us-international-trade-in-goods-and-services', 'metadata_modified': '2016-07-15T19:13:05.368372', 'orgID': '9cda5205-d632-4814-96e7-a4ab5e0dce85', 'orgTitle': 'Department of Commerce', 'resourcesURLs': {}, 'orgName': 'doc-gov', 'resourceType': 'dataset', 'metadata_created': '2015-05-20T21:04:05.460522'}}
+2017-01-31T18:32:19	Identified Resources for: gsa-gov(dd22f4fc-2b07-4e19-9f4b-c43eca5821e5)
+2017-01-31T18:32:19	24. Checking 15ee40ff-8e28-45bb-878e-9b6c8b6c9913, (https://inventory.data.gov/dataset/67567804-073d-40ad-a710-2b0bed8b84e2/resource/e983b323-df6e-43f2-a78d-7af0a2dff997/download/nsnextract.xlsx)
+2017-01-31T18:32:20		checked: https://inventory.data.gov/dataset/67567804-073d-40ad-a710-2b0bed8b84e2/resource/e983b323-df6e-43f2-a78d-7af0a2dff997/download/nsnextract.xlsx
+2017-01-31T18:32:20		status: <Response [200]>
+2017-01-31T18:32:20		Testing elapsed time: 0:00:10.392602:	15ee40ff-8e28-45bb-878e-9b6c8b6c9913, https://inventory.data.gov/dataset/67567804-073d-40ad-a710-2b0bed8b84e2/resource/e983b323-df6e-43f2-a78d-7af0a2dff997/download/nsnextract.xlsx
+2017-01-31T18:32:20		{'dd22f4fc-2b07-4e19-9f4b-c43eca5821e5': {'name': 'national-stock-number-extract', 'metadata_modified': '2016-01-21T22:49:00.333136', 'orgID': '6e1b62da-e344-4901-b754-69326922cf7f', 'orgTitle': 'General Services Administration', 'resourcesURLs': {}, 'orgName': 'gsa-gov', 'resourceType': 'dataset', 'metadata_created': '2014-04-30T20:06:36.189087'}}
+2017-01-31T18:32:20	Identified Resources for: usgs-gov(8e2625d3-b275-43ea-ab65-e1fe2de740a6)
+2017-01-31T18:32:20	25. Checking 89e14085-e4b3-4e1f-b414-73a1b8f3f7b5, (https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/)
+2017-01-31T18:32:20		checked: https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/
+2017-01-31T18:32:20		status: <Response [200]>
+2017-01-31T18:32:20		Testing elapsed time: 0:00:10.995998:	89e14085-e4b3-4e1f-b414-73a1b8f3f7b5, https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/elevation/1_meter/
+2017-01-31T18:32:20	26. Checking 67e8093e-e207-48a3-9f18-c126b1b0bbf9, (https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/IMG/)
+2017-01-31T18:32:21		checked: https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/IMG/
+2017-01-31T18:32:21		status: <Response [200]>
+2017-01-31T18:32:21		Testing elapsed time: 0:00:11.158189:	67e8093e-e207-48a3-9f18-c126b1b0bbf9, https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/IMG/
+2017-01-31T18:32:21	27. Checking b52eaf8b-6fd3-4c9a-8680-e89823279398, (https://services.nationalmap.gov/arcgis/rest/services/3DEPElevationIndex/MapServer)
+2017-01-31T18:32:21		checked: https://services.nationalmap.gov/arcgis/rest/services/3DEPElevationIndex/MapServer
+2017-01-31T18:32:21		status: <Response [404]>
+2017-01-31T18:32:21		Testing elapsed time: 0:00:12.011571:	b52eaf8b-6fd3-4c9a-8680-e89823279398, https://services.nationalmap.gov/arcgis/rest/services/3DEPElevationIndex/MapServer
+2017-01-31T18:32:21	28. Checking 950df9fa-e2d8-4186-93df-6ecd5bbc19b6, (https://services.nationalmap.gov/arcgis/services/3DEPElevationIndex/MapServer/WMSServer?request=GetCapabilities&service=WMS)
+2017-01-31T18:32:22		checked: https://services.nationalmap.gov/arcgis/services/3DEPElevationIndex/MapServer/WMSServer?request=GetCapabilities&service=WMS
+2017-01-31T18:32:22		status: <Response [400]>
+2017-01-31T18:32:22		Testing elapsed time: 0:00:12.255116:	950df9fa-e2d8-4186-93df-6ecd5bbc19b6, https://services.nationalmap.gov/arcgis/services/3DEPElevationIndex/MapServer/WMSServer?request=GetCapabilities&service=WMS
+2017-01-31T18:32:22	29. Checking 3b81057d-b8f5-46b5-b9f1-dbb5b9f25bef, (https://nationalmap.gov/elevation.html)
+2017-01-31T18:32:22		checked: https://nationalmap.gov/elevation.html
+2017-01-31T18:32:22		status: <Response [200]>
+2017-01-31T18:32:22		Testing elapsed time: 0:00:12.606364:	3b81057d-b8f5-46b5-b9f1-dbb5b9f25bef, https://nationalmap.gov/elevation.html
+2017-01-31T18:32:22	30. Checking 1b23db73-67a6-4a99-ba5c-c254dd61ff6b, (https://viewer.nationalmap.gov/)
+2017-01-31T18:32:23		checked: https://viewer.nationalmap.gov/
+2017-01-31T18:32:23		status: <Response [302]>
+2017-01-31T18:32:23		Testing elapsed time: 0:00:13.068254:	1b23db73-67a6-4a99-ba5c-c254dd61ff6b, https://viewer.nationalmap.gov/
+2017-01-31T18:32:23	31. Checking f8d8fa18-6f61-4d22-8ce9-cbe467f691c1, (https://www.sciencebase.gov/catalog/item/543e6b86e4b0fd76af69cf4c)
+2017-01-31T18:32:23		checked: https://www.sciencebase.gov/catalog/item/543e6b86e4b0fd76af69cf4c
+2017-01-31T18:32:23		status: <Response [200]>
+2017-01-31T18:32:23		Testing elapsed time: 0:00:13.567540:	f8d8fa18-6f61-4d22-8ce9-cbe467f691c1, https://www.sciencebase.gov/catalog/item/543e6b86e4b0fd76af69cf4c
+2017-01-31T18:32:23		{'8e2625d3-b275-43ea-ab65-e1fe2de740a6': {'name': 'usgs-national-elevation-dataset-ned-1-meter-downloadable-data-collection-from-the-national-map-', 'metadata_modified': '2017-01-30T21:01:37.842104', 'orgID': 'bd2cdd5a-4d65-46c0-9937-c8381175f104', 'orgTitle': 'U.S. Geological Survey, Department of the Interior', 'resourcesURLs': {}, 'orgName': 'usgs-gov', 'resourceType': 'dataset', 'metadata_created': '2015-01-28T14:36:34.288732'}}
+2017-01-31T18:32:23	Identified Resources for: hhs-gov(0da23224-346f-4d16-b77a-fad31e882b6b)
+2017-01-31T18:32:23	32. Checking 0a54cbfa-83d9-4a35-bd85-d8736456e0e8, (https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.csv?accessType=DOWNLOAD)
+2017-01-31T18:32:24		checked: https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:24		status: <Response [400]>
+2017-01-31T18:32:24		Testing elapsed time: 0:00:14.276211:	0a54cbfa-83d9-4a35-bd85-d8736456e0e8, https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:24	33. Checking fed4e7b4-37bb-48c6-a349-40a9b5169bfa, (https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.rdf?accessType=DOWNLOAD)
+2017-01-31T18:32:24		checked: https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:24		status: <Response [400]>
+2017-01-31T18:32:24		Testing elapsed time: 0:00:14.550575:	fed4e7b4-37bb-48c6-a349-40a9b5169bfa, https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:24	34. Checking e974327e-0527-4b7d-986f-ed51e479403b, (https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.json?accessType=DOWNLOAD)
+2017-01-31T18:32:24		checked: https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:24		status: <Response [400]>
+2017-01-31T18:32:24		Testing elapsed time: 0:00:14.816675:	e974327e-0527-4b7d-986f-ed51e479403b, https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:24	35. Checking 0f31678d-d3e5-4982-8293-9400d25e885d, (https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.xml?accessType=DOWNLOAD)
+2017-01-31T18:32:25		checked: https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:25		status: <Response [400]>
+2017-01-31T18:32:25		Testing elapsed time: 0:00:15.079454:	0f31678d-d3e5-4982-8293-9400d25e885d, https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:25		{'0da23224-346f-4d16-b77a-fad31e882b6b': {'name': 'u-s-chronic-disease-indicators-cdi-e50c9', 'metadata_modified': '2016-10-07T14:53:21.334152', 'orgID': '3609164c-4c49-4a44-9179-23163027dc0a', 'orgTitle': 'U.S. Department of Health & Human Services', 'resourcesURLs': {}, 'orgName': 'hhs-gov', 'resourceType': 'dataset', 'metadata_created': '2016-06-02T01:34:08.284333'}}
+2017-01-31T18:32:25	Extracting resources from: Data.gov_Files/2017-01-31T18:32:09/d9ce2b20-d6bb-415b-b931-0474c67da11d_2017-01-31T18:32:09_00000011-00000020.json
+2017-01-31T18:32:25	Identified Resources for: doc-gov(d5a405e1-1c99-48c1-978c-876dcbf1974e)
+2017-01-31T18:32:25	36. Checking 219605c6-f755-48b3-b8d1-bbbc3f189ff0, (http://www.census.gov/geo/www/ansi/countylookup.html)
+2017-01-31T18:32:25		checked: http://www.census.gov/geo/www/ansi/countylookup.html
+2017-01-31T18:32:25		status: <Response [200]>
+2017-01-31T18:32:25		Testing elapsed time: 0:00:15.179893:	219605c6-f755-48b3-b8d1-bbbc3f189ff0, http://www.census.gov/geo/www/ansi/countylookup.html
+2017-01-31T18:32:25		{'d5a405e1-1c99-48c1-978c-876dcbf1974e': {'name': 'fips-county-code-look-up-tool', 'metadata_modified': '2015-09-17T06:58:34.463169', 'orgID': '9cda5205-d632-4814-96e7-a4ab5e0dce85', 'orgTitle': 'Department of Commerce', 'resourcesURLs': {}, 'orgName': 'doc-gov', 'resourceType': 'dataset', 'metadata_created': '2015-05-20T21:03:53.901329'}}
+2017-01-31T18:32:25	Identified Resources for: noaa-gov(7ec6cf73-26f3-43dd-bab3-827cc805bd2e)
+2017-01-31T18:32:25	37. Checking 3f1e9133-e56c-4911-8c43-cf7539f456ed, (http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00313)
+2017-01-31T18:32:25		checked: http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00313
+2017-01-31T18:32:25		status: <Response [301]>
+2017-01-31T18:32:25		Testing elapsed time: 0:00:15.433323:	3f1e9133-e56c-4911-8c43-cf7539f456ed, http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00313
+2017-01-31T18:32:25	38. Checking d350dfb1-670b-4d56-9fc3-a4a1c8b8e271, (http://www.ncdc.noaa.gov/cdo-web/search?datasetid=PRECIP_HLY#)
+2017-01-31T18:32:25		checked: http://www.ncdc.noaa.gov/cdo-web/search?datasetid=PRECIP_HLY#
+2017-01-31T18:32:25		status: <Response [301]>
+2017-01-31T18:32:25		Testing elapsed time: 0:00:15.698282:	d350dfb1-670b-4d56-9fc3-a4a1c8b8e271, http://www.ncdc.noaa.gov/cdo-web/search?datasetid=PRECIP_HLY#
+2017-01-31T18:32:25	39. Checking 342faf7f-5eaa-4955-a8ad-ead88e7a4e63, (https://gis.ncdc.noaa.gov/maps/ncei/cdo/hourly?layers=001)
+2017-01-31T18:32:26		checked: https://gis.ncdc.noaa.gov/maps/ncei/cdo/hourly?layers=001
+2017-01-31T18:32:26		status: <Response [200]>
+2017-01-31T18:32:26		Testing elapsed time: 0:00:16.096414:	342faf7f-5eaa-4955-a8ad-ead88e7a4e63, https://gis.ncdc.noaa.gov/maps/ncei/cdo/hourly?layers=001
+2017-01-31T18:32:26	40. Checking 460e6f4a-385a-4a9c-a617-b5e81a542c95, (ftp://ftp.ncdc.noaa.gov/pub/data/hourly_precip-3240/)
+2017-01-31T18:32:26		Request Exception Error: No connection adapters were found for 'ftp://ftp.ncdc.noaa.gov/pub/data/hourly_precip-3240/' -  ftp://ftp.ncdc.noaa.gov/pub/data/hourly_precip-3240/
+2017-01-31T18:32:26		Testing elapsed time: 0:00:16.097604:	460e6f4a-385a-4a9c-a617-b5e81a542c95, ftp://ftp.ncdc.noaa.gov/pub/data/hourly_precip-3240/
+2017-01-31T18:32:26	41. Checking 16bdfd16-c692-479b-a9d4-d532dc1257fa, (http://gis.ncdc.noaa.gov/arcgis/rest/services/cdo/precip_hly/MapServer)
+2017-01-31T18:32:26		checked: http://gis.ncdc.noaa.gov/arcgis/rest/services/cdo/precip_hly/MapServer
+2017-01-31T18:32:26		status: <Response [301]>
+2017-01-31T18:32:26		Testing elapsed time: 0:00:16.274885:	16bdfd16-c692-479b-a9d4-d532dc1257fa, http://gis.ncdc.noaa.gov/arcgis/rest/services/cdo/precip_hly/MapServer
+2017-01-31T18:32:26	42. Checking a8ee3926-f058-406a-a226-619b93adb60f, (http://gis.ncdc.noaa.gov/kml/precip_hly.kmz)
+2017-01-31T18:32:26		checked: http://gis.ncdc.noaa.gov/kml/precip_hly.kmz
+2017-01-31T18:32:26		status: <Response [301]>
+2017-01-31T18:32:26		Testing elapsed time: 0:00:16.475819:	a8ee3926-f058-406a-a226-619b93adb60f, http://gis.ncdc.noaa.gov/kml/precip_hly.kmz
+2017-01-31T18:32:26	43. Checking cde93dbf-39be-47a6-a9a8-c86e729e1eee, (http://www1.ncdc.noaa.gov/pub/data/cdo/documentation/PRECIP_HLY_documentation.pdf)
+2017-01-31T18:32:26		checked: http://www1.ncdc.noaa.gov/pub/data/cdo/documentation/PRECIP_HLY_documentation.pdf
+2017-01-31T18:32:26		status: <Response [301]>
+2017-01-31T18:32:26		Testing elapsed time: 0:00:16.874658:	cde93dbf-39be-47a6-a9a8-c86e729e1eee, http://www1.ncdc.noaa.gov/pub/data/cdo/documentation/PRECIP_HLY_documentation.pdf
+2017-01-31T18:32:26	44. Checking 32afac55-b591-4ded-accb-2093c106eca9, (http://www1.ncdc.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_csv.csv)
+2017-01-31T18:32:27		checked: http://www1.ncdc.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_csv.csv
+2017-01-31T18:32:27		status: <Response [301]>
+2017-01-31T18:32:27		Testing elapsed time: 0:00:17.074321:	32afac55-b591-4ded-accb-2093c106eca9, http://www1.ncdc.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_csv.csv
+2017-01-31T18:32:27	45. Checking a79fc8ee-ef57-4c77-b13f-49de9b2135c7, (http://www1.ncdc.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_ascii.dat)
+2017-01-31T18:32:27		checked: http://www1.ncdc.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_ascii.dat
+2017-01-31T18:32:27		status: <Response [301]>
+2017-01-31T18:32:27		Testing elapsed time: 0:00:17.275690:	a79fc8ee-ef57-4c77-b13f-49de9b2135c7, http://www1.ncdc.noaa.gov/pub/data/cdo/samples/PRECIP_HLY_sample_ascii.dat
+2017-01-31T18:32:27	46. Checking be70e81c-c674-454d-b875-f05bdbe17b1c, (http://www.ncdc.noaa.gov/IPS/hpd/hpd.html)
+2017-01-31T18:32:27		checked: http://www.ncdc.noaa.gov/IPS/hpd/hpd.html
+2017-01-31T18:32:27		status: <Response [301]>
+2017-01-31T18:32:27		Testing elapsed time: 0:00:17.474589:	be70e81c-c674-454d-b875-f05bdbe17b1c, http://www.ncdc.noaa.gov/IPS/hpd/hpd.html
+2017-01-31T18:32:27	47. Checking dd27f34f-da8f-4f73-b8b8-7670a7d796aa, (http://www.ncei.noaa.gov)
+2017-01-31T18:32:27		checked: http://www.ncei.noaa.gov
+2017-01-31T18:32:27		status: <Response [301]>
+2017-01-31T18:32:27		Testing elapsed time: 0:00:17.885865:	dd27f34f-da8f-4f73-b8b8-7670a7d796aa, http://www.ncei.noaa.gov
+2017-01-31T18:32:27	48. Checking 18cc9edb-ee9f-4eef-b4c0-46429ea1c9d5, (http://gcmd.gsfc.nasa.gov/learn/keywords.html)
+2017-01-31T18:32:28		checked: http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:28		status: <Response [200]>
+2017-01-31T18:32:28		Testing elapsed time: 0:00:18.136094:	18cc9edb-ee9f-4eef-b4c0-46429ea1c9d5, http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:28	49. Checking f07f50be-4db4-4fc7-b41c-df097f62b3a9, (https://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords)
+2017-01-31T18:32:28		checked: https://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords
+2017-01-31T18:32:28		status: <Response [200]>
+2017-01-31T18:32:28		Testing elapsed time: 0:00:18.693580:	f07f50be-4db4-4fc7-b41c-df097f62b3a9, https://geo-ide.noaa.gov/wiki/index.php?title=MD_Keywords
+2017-01-31T18:32:28	50. Checking 113c397e-f2b8-4d45-b53d-2bb936f6c4d9, (http://gcmd.gsfc.nasa.gov/learn/keywords.html)
+2017-01-31T18:32:28		checked: http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:28		status: <Response [200]>
+2017-01-31T18:32:28		Testing elapsed time: 0:00:18.862923:	113c397e-f2b8-4d45-b53d-2bb936f6c4d9, http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:28	51. Checking 6e8bee7d-d99e-41f5-9d81-ab67d2a3160b, (http://gcmd.gsfc.nasa.gov/learn/keywords.html)
+2017-01-31T18:32:29		checked: http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:29		status: <Response [200]>
+2017-01-31T18:32:29		Testing elapsed time: 0:00:19.032556:	6e8bee7d-d99e-41f5-9d81-ab67d2a3160b, http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:29	52. Checking 1912ca06-5825-493d-aa10-b532d7ccd751, (http://gcmd.gsfc.nasa.gov/learn/keywords.html)
+2017-01-31T18:32:29		checked: http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:29		status: <Response [200]>
+2017-01-31T18:32:29		Testing elapsed time: 0:00:19.209260:	1912ca06-5825-493d-aa10-b532d7ccd751, http://gcmd.gsfc.nasa.gov/learn/keywords.html
+2017-01-31T18:32:29	53. Checking c12961d0-9661-442a-8cb7-73fb55167694, (http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00127)
+2017-01-31T18:32:29		checked: http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00127
+2017-01-31T18:32:29		status: <Response [301]>
+2017-01-31T18:32:29		Testing elapsed time: 0:00:19.382304:	c12961d0-9661-442a-8cb7-73fb55167694, http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00127
+2017-01-31T18:32:29		{'7ec6cf73-26f3-43dd-bab3-827cc805bd2e': {'name': 'u-s-hourly-precipitation-data', 'metadata_modified': '2017-01-17T00:58:14.428273', 'orgID': 'e811f0b4-451f-4896-9e8f-fc6802837819', 'orgTitle': 'National Oceanic and Atmospheric Administration, Department of Commerce', 'resourcesURLs': {}, 'orgName': 'noaa-gov', 'resourceType': 'dataset', 'metadata_created': '2015-09-27T01:32:23.015530'}}
+2017-01-31T18:32:29	Identified Resources for: usda-gov(776f74af-7347-431e-aee7-dfebbe4a7513)
+2017-01-31T18:32:29	54. Checking b83477fb-8f2d-4b65-859a-acd329525291, (http://www.cnpp.usda.gov/sites/default/files/expenditures_on_children_by_families/crc2013.pdf)
+2017-01-31T18:32:29		checked: http://www.cnpp.usda.gov/sites/default/files/expenditures_on_children_by_families/crc2013.pdf
+2017-01-31T18:32:29		status: <Response [301]>
+2017-01-31T18:32:29		Testing elapsed time: 0:00:19.404382:	b83477fb-8f2d-4b65-859a-acd329525291, http://www.cnpp.usda.gov/sites/default/files/expenditures_on_children_by_families/crc2013.pdf
+2017-01-31T18:32:29		{'776f74af-7347-431e-aee7-dfebbe4a7513': {'name': 'expenditures-on-children-by-families', 'metadata_modified': '2016-10-18T14:01:15.875656', 'orgID': '4ae51f6c-467a-4f9d-b40a-2c52e83c326a', 'orgTitle': 'Department of Agriculture', 'resourcesURLs': {}, 'orgName': 'usda-gov', 'resourceType': 'dataset', 'metadata_created': '2014-03-31T23:21:51.556828'}}
+2017-01-31T18:32:29	Identified Resources for: montgomery-county-of-maryland(efdd6c28-f603-40d8-af6e-1c1450dadf0d)
+2017-01-31T18:32:29	55. Checking 6074c06e-909a-41fc-a25d-23ba3d6aef62, (https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.csv?accessType=DOWNLOAD)
+2017-01-31T18:32:29		checked: https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:29		status: <Response [400]>
+2017-01-31T18:32:29		Testing elapsed time: 0:00:19.958735:	6074c06e-909a-41fc-a25d-23ba3d6aef62, https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:29	56. Checking 525778a6-72d5-4ec1-87a3-5b223224d35b, (https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.rdf?accessType=DOWNLOAD)
+2017-01-31T18:32:30		checked: https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:30		status: <Response [400]>
+2017-01-31T18:32:30		Testing elapsed time: 0:00:20.227249:	525778a6-72d5-4ec1-87a3-5b223224d35b, https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:30	57. Checking 2a6e1c8a-038a-4cba-b052-90c333f762ff, (https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.json?accessType=DOWNLOAD)
+2017-01-31T18:32:30		checked: https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:30		status: <Response [400]>
+2017-01-31T18:32:30		Testing elapsed time: 0:00:20.492151:	2a6e1c8a-038a-4cba-b052-90c333f762ff, https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:30	58. Checking 77966f65-f1e7-4fa3-87a3-5cb26450a849, (https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.xml?accessType=DOWNLOAD)
+2017-01-31T18:32:30		checked: https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:30		status: <Response [400]>
+2017-01-31T18:32:30		Testing elapsed time: 0:00:20.762989:	77966f65-f1e7-4fa3-87a3-5cb26450a849, https://data.montgomerycountymd.gov/api/views/4mse-ku6q/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:30		{'efdd6c28-f603-40d8-af6e-1c1450dadf0d': {'name': 'traffic-violations-56dda', 'metadata_modified': '2017-01-26T17:12:28.037102', 'orgID': '34b941c8-ce51-4248-9bb0-3907b6a637e3', 'orgTitle': 'Montgomery County of Maryland', 'resourcesURLs': {}, 'orgName': 'montgomery-county-of-maryland', 'resourceType': 'dataset', 'metadata_created': '2015-02-04T19:41:51.562660'}}
+2017-01-31T18:32:30	Identified Resources for: usda-gov(da4455e9-2bf1-4d8e-9c52-ca7cebd3257b)
+2017-01-31T18:32:30	59. Checking c9e15740-71a4-4081-8bde-2bc91dada501, (http://www.fsa.usda.gov/FSA/webapp?area=newsroom&subject=landing&topic=foi-er-fri-pfi)
+2017-01-31T18:32:31		checked: http://www.fsa.usda.gov/FSA/webapp?area=newsroom&subject=landing&topic=foi-er-fri-pfi
+2017-01-31T18:32:31		status: <Response [301]>
+2017-01-31T18:32:31		Testing elapsed time: 0:00:21.038372:	c9e15740-71a4-4081-8bde-2bc91dada501, http://www.fsa.usda.gov/FSA/webapp?area=newsroom&subject=landing&topic=foi-er-fri-pfi
+2017-01-31T18:32:31		{'da4455e9-2bf1-4d8e-9c52-ca7cebd3257b': {'name': 'farm-programs-payments', 'metadata_modified': '2016-10-18T14:00:59.792706', 'orgID': '4ae51f6c-467a-4f9d-b40a-2c52e83c326a', 'orgTitle': 'Department of Agriculture', 'resourcesURLs': {}, 'orgName': 'usda-gov', 'resourceType': 'dataset', 'metadata_created': '2014-04-30T00:40:41.021082'}}
+2017-01-31T18:32:31	Identified Resources for: doc-gov(98d3ca26-5cee-4207-8bbb-72daa1162912)
+2017-01-31T18:32:31	60. Checking f9ae68d9-8feb-4e38-9254-838d6c6f0310, (http://factfinder2.census.gov)
+2017-01-31T18:32:33		checked: http://factfinder2.census.gov
+2017-01-31T18:32:33		status: <Response [302]>
+2017-01-31T18:32:33		Testing elapsed time: 0:00:23.133692:	f9ae68d9-8feb-4e38-9254-838d6c6f0310, http://factfinder2.census.gov
+2017-01-31T18:32:33		{'98d3ca26-5cee-4207-8bbb-72daa1162912': {'name': 'american-factfinder-ii', 'metadata_modified': '2015-09-17T06:58:26.637068', 'orgID': '9cda5205-d632-4814-96e7-a4ab5e0dce85', 'orgTitle': 'Department of Commerce', 'resourcesURLs': {}, 'orgName': 'doc-gov', 'resourceType': 'dataset', 'metadata_created': '2015-05-20T21:03:35.270902'}}
+2017-01-31T18:32:33	Identified Resources for: usda-gov(9f19b766-8fcb-4bf0-8c77-f0107b18b9db)
+2017-01-31T18:32:33	61. Checking 6adf6f38-0ff3-46e5-89c8-7c358cbd6d95, (http://www.sc.egov.usda.gov/data/files/SFHFCLData.csv)
+2017-01-31T18:32:33		checked: http://www.sc.egov.usda.gov/data/files/SFHFCLData.csv
+2017-01-31T18:32:33		status: <Response [301]>
+2017-01-31T18:32:33		Testing elapsed time: 0:00:23.590588:	6adf6f38-0ff3-46e5-89c8-7c358cbd6d95, http://www.sc.egov.usda.gov/data/files/SFHFCLData.csv
+2017-01-31T18:32:33	62. Checking ab7ee664-a11e-4f8b-8818-4501f59f50d0, (http://homesales.gov/homesales/mainAction.do)
+2017-01-31T18:32:34		checked: http://homesales.gov/homesales/mainAction.do
+2017-01-31T18:32:34		status: <Response [301]>
+2017-01-31T18:32:34		Testing elapsed time: 0:00:24.639479:	ab7ee664-a11e-4f8b-8818-4501f59f50d0, http://homesales.gov/homesales/mainAction.do
+2017-01-31T18:32:34		{'9f19b766-8fcb-4bf0-8c77-f0107b18b9db': {'name': 'usda-rural-development-resale-properties-foreclosure', 'metadata_modified': '2016-10-18T14:02:06.661889', 'orgID': '4ae51f6c-467a-4f9d-b40a-2c52e83c326a', 'orgTitle': 'Department of Agriculture', 'resourcesURLs': {}, 'orgName': 'usda-gov', 'resourceType': 'dataset', 'metadata_created': '2014-05-17T01:25:07.704178'}}
+2017-01-31T18:32:34	Identified Resources for: dhs-gov(c15f0970-cc91-48e8-b9fa-3d8bf7279cba)
+2017-01-31T18:32:34	63. Checking 7ecd00c6-c06d-4602-bba5-7edfa0a7ab6f, (http://www.floodmaps.fema.gov/NFHL/status.shtml)
+2017-01-31T18:32:35		checked: http://www.floodmaps.fema.gov/NFHL/status.shtml
+2017-01-31T18:32:35		status: <Response [200]>
+2017-01-31T18:32:35		Testing elapsed time: 0:00:25.339932:	7ecd00c6-c06d-4602-bba5-7edfa0a7ab6f, http://www.floodmaps.fema.gov/NFHL/status.shtml
+2017-01-31T18:32:35	64. Checking b1f66853-e3eb-49e8-9dbb-0c589ce3c6ef, (http://fema.maps.arcgis.com/home/item.html?id=cbe088e7c8704464aa0fc34eb99e7f30)
+2017-01-31T18:32:35		checked: http://fema.maps.arcgis.com/home/item.html?id=cbe088e7c8704464aa0fc34eb99e7f30
+2017-01-31T18:32:35		status: <Response [200]>
+2017-01-31T18:32:35		Testing elapsed time: 0:00:25.585584:	b1f66853-e3eb-49e8-9dbb-0c589ce3c6ef, http://fema.maps.arcgis.com/home/item.html?id=cbe088e7c8704464aa0fc34eb99e7f30
+2017-01-31T18:32:35	65. Checking 88d7fde8-1139-43a9-916d-7874b4c04453, (http://www.fema.gov/media-library/assets/documents/13424)
+2017-01-31T18:32:35		checked: http://www.fema.gov/media-library/assets/documents/13424
+2017-01-31T18:32:35		status: <Response [403]>
+2017-01-31T18:32:35		Testing elapsed time: 0:00:25.873602:	88d7fde8-1139-43a9-916d-7874b4c04453, http://www.fema.gov/media-library/assets/documents/13424
+2017-01-31T18:32:35	66. Checking 91bccacd-511c-4d76-b25f-2ffc6bec8aa1, (http://msc.fema.gov)
+2017-01-31T18:32:36		checked: http://msc.fema.gov
+2017-01-31T18:32:36		status: <Response [302]>
+2017-01-31T18:32:36		Testing elapsed time: 0:00:26.282157:	91bccacd-511c-4d76-b25f-2ffc6bec8aa1, http://msc.fema.gov
+2017-01-31T18:32:36	67. Checking 75d75a62-fabc-488f-80b0-fa32312b9930, (https://content.femadata.com/FIMA/Risk_MAP/NFHL/)
+2017-01-31T18:32:36		checked: https://content.femadata.com/FIMA/Risk_MAP/NFHL/
+2017-01-31T18:32:36		status: <Response [301]>
+2017-01-31T18:32:36		Testing elapsed time: 0:00:26.706044:	75d75a62-fabc-488f-80b0-fa32312b9930, https://content.femadata.com/FIMA/Risk_MAP/NFHL/
+2017-01-31T18:32:36	68. Checking 00999582-a0a4-47f3-9b2c-8308bc2b803f, (http://www.fema.gov/media-library-data/1449862521789-e97ed4c7b7405faa7c3691603137ec40/FIRM_Database_Technical_Reference_Nov_2015.pdf)
+2017-01-31T18:32:36		checked: http://www.fema.gov/media-library-data/1449862521789-e97ed4c7b7405faa7c3691603137ec40/FIRM_Database_Technical_Reference_Nov_2015.pdf
+2017-01-31T18:32:36		status: <Response [403]>
+2017-01-31T18:32:36		Testing elapsed time: 0:00:26.713986:	00999582-a0a4-47f3-9b2c-8308bc2b803f, http://www.fema.gov/media-library-data/1449862521789-e97ed4c7b7405faa7c3691603137ec40/FIRM_Database_Technical_Reference_Nov_2015.pdf
+2017-01-31T18:32:36	69. Checking 643cc621-8719-42d0-8025-b2c115d310cb, (https://hazards.fema.gov/femaportal/wps/portal/NFHLWMS)
+2017-01-31T18:32:37		checked: https://hazards.fema.gov/femaportal/wps/portal/NFHLWMS
+2017-01-31T18:32:37		status: <Response [200]>
+2017-01-31T18:32:37		Testing elapsed time: 0:00:27.321983:	643cc621-8719-42d0-8025-b2c115d310cb, https://hazards.fema.gov/femaportal/wps/portal/NFHLWMS
+2017-01-31T18:32:37		{'c15f0970-cc91-48e8-b9fa-3d8bf7279cba': {'name': 'national-flood-hazard-layer-nfhl', 'metadata_modified': '2016-05-16T17:43:27.631564', 'orgID': '05d603ec-9121-4f71-b09e-5d5b5a7efc64', 'orgTitle': 'Department of Homeland Security', 'resourcesURLs': {}, 'orgName': 'dhs-gov', 'resourceType': 'dataset', 'metadata_created': '2015-04-04T02:15:41.826162'}}
+2017-01-31T18:32:37	Identified Resources for: nasa-gov(25b9fbc8-959c-4fc5-9bbc-fc9d1418e43d)
+2017-01-31T18:32:37	70. Checking 288522b7-8454-4b7a-a3f2-192e85cdee23, (http://open.nasa.gov/datasets/NASA_Labs_Facilities.xlsx)
+2017-01-31T18:32:37		checked: http://open.nasa.gov/datasets/NASA_Labs_Facilities.xlsx
+2017-01-31T18:32:37		status: <Response [301]>
+2017-01-31T18:32:37		Testing elapsed time: 0:00:27.639240:	288522b7-8454-4b7a-a3f2-192e85cdee23, http://open.nasa.gov/datasets/NASA_Labs_Facilities.xlsx
+2017-01-31T18:32:37		{'25b9fbc8-959c-4fc5-9bbc-fc9d1418e43d': {'name': 'agency-data-on-user-facilities', 'metadata_modified': '2015-07-08T19:23:42.198267', 'orgID': 'd8a6202b-c0c3-463d-88a0-3bc021a178ed', 'orgTitle': 'National Aeronautics and Space Administration', 'resourcesURLs': {}, 'orgName': 'nasa-gov', 'resourceType': 'dataset', 'metadata_created': '2014-10-08T03:17:46.625370'}}
+2017-01-31T18:32:37	Identified Resources for: hhs-gov(0233cb3e-0796-41cf-b3f7-0a43a169794a)
+2017-01-31T18:32:37	71. Checking cb7fc8d0-9480-4dc3-b692-380457c20cf4, (https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.csv?accessType=DOWNLOAD)
+2017-01-31T18:32:37		checked: https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:37		status: <Response [400]>
+2017-01-31T18:32:37		Testing elapsed time: 0:00:27.938149:	cb7fc8d0-9480-4dc3-b692-380457c20cf4, https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.csv?accessType=DOWNLOAD
+2017-01-31T18:32:37	72. Checking 7287f409-f368-45a1-8b94-b18e333b6564, (https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.rdf?accessType=DOWNLOAD)
+2017-01-31T18:32:38		checked: https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:38		status: <Response [400]>
+2017-01-31T18:32:38		Testing elapsed time: 0:00:28.205169:	7287f409-f368-45a1-8b94-b18e333b6564, https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.rdf?accessType=DOWNLOAD
+2017-01-31T18:32:38	73. Checking ecee2bfd-daa0-432a-aab9-e6ec34e1818a, (https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.json?accessType=DOWNLOAD)
+2017-01-31T18:32:38		checked: https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:38		status: <Response [400]>
+2017-01-31T18:32:38		Testing elapsed time: 0:00:28.473160:	ecee2bfd-daa0-432a-aab9-e6ec34e1818a, https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.json?accessType=DOWNLOAD
+2017-01-31T18:32:38	74. Checking da2b0b52-595f-4ffd-bc14-2ac9ba50f8e7, (https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.xml?accessType=DOWNLOAD)
+2017-01-31T18:32:38		checked: https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:38		status: <Response [400]>
+2017-01-31T18:32:38		Testing elapsed time: 0:00:28.763737:	da2b0b52-595f-4ffd-bc14-2ac9ba50f8e7, https://chronicdata.cdc.gov/api/views/4juz-x2tp/rows.xml?accessType=DOWNLOAD
+2017-01-31T18:32:38		{'0233cb3e-0796-41cf-b3f7-0a43a169794a': {'name': 'youth-tobacco-survey-yts-data', 'metadata_modified': '2016-10-07T14:53:18.102025', 'orgID': '3609164c-4c49-4a44-9179-23163027dc0a', 'orgTitle': 'U.S. Department of Health & Human Services', 'resourcesURLs': {}, 'orgName': 'hhs-gov', 'resourceType': 'dataset', 'metadata_created': '2016-05-08T00:32:12.741429'}}
+2017-01-31T18:32:38	URL Test Completed
+2017-01-31T18:32:38	URL Test Execution Time: 0:00:28.763989
